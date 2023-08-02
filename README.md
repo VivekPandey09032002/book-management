@@ -69,6 +69,8 @@ This project is licensed under the [MIT License](LICENSE), allowing you to use, 
 
 Contributions to the Book Management project are welcome! If you find a bug or have an enhancement in mind, please open an issue or submit a pull request. Let's make this project better together!
 
+[![Video Thumbnail](https://assets.gqindia.com/photos/632981ddc45340ebeda644f5/3:2/w_3987,h_2658,c_limit/_nfd7808%202.JPG)](https://www.youtube.com/watch?v=XtCQOmyA0a0&ab_channel=DefineTunes)
+
 
 
 
