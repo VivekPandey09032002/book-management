@@ -633,3 +633,63 @@
 2023-08-02 12:36:59.003 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
 2023-08-02 12:36:59.025 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
 2023-08-02 12:36:59.066 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 12:40:45.743 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 12:40:45.781 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:45.782 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 12:40:45.785 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:45.787 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:45.789 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:40:45.790 INFO  HikariDataSource.close - HikariPool-22 - Shutdown initiated...
+2023-08-02 12:40:45.827 INFO  HikariDataSource.close - HikariPool-22 - Shutdown completed.
+2023-08-02 12:40:46.245 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 12:40:46.263 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 17 ms. Found 2 JPA repository interfaces.
+2023-08-02 12:40:46.404 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 12:40:46.406 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:46.407 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 12:40:46.408 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 12:40:46.495 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 12:40:46.497 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 12:40:46.498 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 544 ms
+2023-08-02 12:40:46.522 INFO  HikariDataSource.getConnection - HikariPool-23 - Starting...
+2023-08-02 12:40:46.536 INFO  HikariPool.checkFailFast - HikariPool-23 - Added connection conn220: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 12:40:46.537 INFO  HikariDataSource.getConnection - HikariPool-23 - Start completed.
+2023-08-02 12:40:46.538 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 12:40:46.602 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 12:40:46.636 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 12:40:46.696 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 12:40:46.826 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 12:40:46.830 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 12:40:46.849 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 12:40:46.864 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 12:40:46.873 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
+2023-08-02 13:02:35.980 WARN  HikariPool$HouseKeeper.run - HikariPool-23 - Thread starvation or clock leap detected (housekeeper delta=48s962ms309µs600ns).
+2023-08-02 14:13:42.152 WARN  HikariPool$HouseKeeper.run - HikariPool-23 - Thread starvation or clock leap detected (housekeeper delta=42m5s729ms543µs500ns).
+2023-08-02 15:01:10.081 INFO  LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener.onApplicationEvent - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-08-02 15:01:10.151 INFO  DirectJDKLog.log - Pausing ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:10.152 INFO  DirectJDKLog.log - Stopping service [Tomcat]
+2023-08-02 15:01:10.226 INFO  DirectJDKLog.log - Stopping ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:10.232 INFO  DirectJDKLog.log - Destroying ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:10.249 INFO  AbstractEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 15:01:10.253 INFO  HikariDataSource.close - HikariPool-23 - Shutdown initiated...
+2023-08-02 15:01:10.278 INFO  HikariDataSource.close - HikariPool-23 - Shutdown completed.
+2023-08-02 15:01:11.394 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-02 15:01:11.415 INFO  RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2023-08-02 15:01:11.750 INFO  TomcatWebServer.initialize - Tomcat initialized with port(s): 8081 (http)
+2023-08-02 15:01:11.751 INFO  DirectJDKLog.log - Initializing ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:11.753 INFO  DirectJDKLog.log - Starting service [Tomcat]
+2023-08-02 15:01:11.753 INFO  DirectJDKLog.log - Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-08-02 15:01:11.862 INFO  DirectJDKLog.log - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-08-02 15:01:11.864 INFO  DirectJDKLog.log - Initializing Spring embedded WebApplicationContext
+2023-08-02 15:01:11.864 INFO  ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 1235 ms
+2023-08-02 15:01:11.910 INFO  HikariDataSource.getConnection - HikariPool-24 - Starting...
+2023-08-02 15:01:12.000 INFO  HikariPool.checkFailFast - HikariPool-24 - Added connection conn260: url=jdbc:h2:file:~/h2/management user=SA
+2023-08-02 15:01:12.001 INFO  HikariDataSource.getConnection - HikariPool-24 - Start completed.
+2023-08-02 15:01:12.002 INFO  H2ConsoleAutoConfiguration.logDataSources - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:~/h2/management'
+2023-08-02 15:01:12.064 INFO  SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-08-02 15:01:12.129 INFO  AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-02 15:01:12.335 WARN  JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-02 15:01:12.646 WARN  OptionalLiveReloadServer.startServer - Unable to start LiveReload server
+2023-08-02 15:01:12.657 INFO  EndpointLinksResolver.<init> - Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-08-02 15:01:12.729 INFO  DirectJDKLog.log - Starting ProtocolHandler ["http-nio-8081"]
+2023-08-02 15:01:12.792 INFO  TomcatWebServer.start - Tomcat started on port(s): 8081 (http) with context path ''
+2023-08-02 15:01:12.810 INFO  ConditionEvaluationDeltaLoggingListener.onApplicationEvent - Condition evaluation unchanged
