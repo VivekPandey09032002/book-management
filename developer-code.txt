@@ -1,2 +1,6 @@
+<<<<<<< Updated upstream
 this is developer code new changes
 new line added
+=======
+this is developer code changed....
+>>>>>>> Stashed changes
