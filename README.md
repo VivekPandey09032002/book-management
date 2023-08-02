@@ -1,3 +1,6 @@
+
+
+
 # Book Management
 
 The Book Management project is a simple web-based application that allows users to manage books in a library. The application provides a set of RESTful APIs to perform various operations such as adding new books, updating book details, deleting books, and retrieving book information.
@@ -37,6 +40,8 @@ To get started with the Book Management application, follow the instructions bel
 git clone https://github.com/VivekPandey09032002/book-management.git
 cd book-management
 
+
+```
 2. Book Management endpoints
 
 | Method | Endpoint                 | Description                              |
@@ -46,7 +51,6 @@ cd book-management
 | DELETE | /books/{bookId}          | Delete a book                            |
 | GET    | /books                   | Get a list of all books                  |
 | GET    | /books/{bookId}          | Get details of a specific book by ID     |
-```
 
 `Please note that this application currently does not have built-in authentication and authorization. For a production deployment, consider integrating an authentication mechanism (e.g., OAuth, JWT) and role-based access control to secure sensitive operations.`
 
