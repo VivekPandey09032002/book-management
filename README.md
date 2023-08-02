@@ -46,12 +46,11 @@ cd book-management
 | DELETE | /books/{bookId}          | Delete a book                            |
 | GET    | /books                   | Get a list of all books                  |
 | GET    | /books/{bookId}          | Get details of a specific book by ID     |
+```
 
-Please note that this application currently does not have built-in authentication and authorization. For a production deployment, consider integrating an authentication mechanism (e.g., OAuth, JWT) and role-based access control to secure sensitive operations.
-
+`Please note that this application currently does not have built-in authentication and authorization. For a production deployment, consider integrating an authentication mechanism (e.g., OAuth, JWT) and role-based access control to secure sensitive operations.`
 
 # Documentation
-
 The API endpoints are documented using Swagger (OpenAPI). You can access the Swagger documentation at [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) after starting the application.
 
 # Deployment
@@ -65,6 +64,8 @@ This project is licensed under the [MIT License](LICENSE), allowing you to use, 
 # Contributing
 
 Contributions to the Book Management project are welcome! If you find a bug or have an enhancement in mind, please open an issue or submit a pull request. Let's make this project better together!
+
+
 
 
 
