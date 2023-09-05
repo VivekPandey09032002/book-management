@@ -15,3 +15,8 @@
 2023-08-02 12:36:59.052 WARN  ManagmentApplication.lambda$0 - hello world!
 2023-08-02 12:40:46.873 WARN  ManagmentApplication.lambda$0 - hello world!
 2023-08-02 15:01:12.809 WARN  ManagmentApplication.lambda$0 - hello world!
+2023-08-24 10:16:25.543 WARN  ManagmentApplication.lambda$commandLineRunner$0 - hello world!
+2023-09-05 09:30:40.190 WARN  ManagmentApplication.lambda$commandLineRunner$0 - hello world!
+2023-09-05 09:43:49.942 WARN  ManagmentApplication.lambda$commandLineRunner$0 - hello world!
+2023-09-05 09:44:57.977 WARN  ManagmentApplication.lambda$commandLineRunner$0 - hello world!
+2023-09-05 09:45:54.640 WARN  ManagmentApplication.lambda$commandLineRunner$0 - hello world!
