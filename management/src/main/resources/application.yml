@@ -10,9 +10,9 @@ spring:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
   datasource:
-    url: jdbc:postgresql://testing_u8fn_user:5432/testing_u8fn
-    username: testing_u8fn_user
-    password: MDvXWfXEQf4QwewJltBy0vYGLz3YKdLO
+    url: ${URL}
+    username: ${USER_NAME}
+    password: ${PASSWORD}
     driverClassName: org.postgresql.Driver
   #  hibernate configuration
   jpa:
